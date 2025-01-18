@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.languageItem {
+  margin: 20px;
+}
+.languageButton {
+  outline: none;
+  background: none;
+  border: 0px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.activeLanguageButton {
+  outline: blue;
+  background: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  border: solid 2px #0284c7;
+  border-radius: 10px;
+  font-weight: bold;
+}
+@media screen and (max-width: 767px) {
+  .languageItem {
+    margin: 5px;
+  }
+}

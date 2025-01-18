@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.selectContainer {
+  display: flex;
+  list-style-type: none;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.repositoryItemsContainer {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+}
+.heading {
+  font-family: 'Lobster';
+}
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .repositoryItemsContainer {
+    width: 90%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,74 @@
+/* Write your CSS here */
+.reposItem {
+  margin-bottom: 5px;
+  background-color: #f8f8ff;
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.avatarImg {
+  height: 100px;
+  width: 100px;
+}
+.starsImg {
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+}
+.forksImg {
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+}
+.openIssuesImg {
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+}
+.starts-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.forks-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.issues-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.name {
+  color: #e73959;
+}
+
+@media screen and (max-width: 767px) {
+  .reposItem {
+    margin: 0px;
+    margin-bottom: 10px;
+    background-color: #f8f8ff;
+    border-radius: 10px;
+    width: 230px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .avatarImg {
+    height: 60px;
+    width: 60px;
+  }
+
+  .name {
+    color: #e73959;
+    font-size: 20px;
+  }
+}
